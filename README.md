@@ -38,4 +38,5 @@
 - **React Navigation**: Navegação entre telas (aberto para escolha do tipo de navegação).
 - **Zod e React Hook Form**: Validação de formulários com tipagem robusta.
 - **Autenticação Biométrica**: Login utilizando reconhecimento facial ou impressão digital.
+- **GitHub Actions**: Pipeline automatizado para verificar lint e prettier em cada commit na branch master
 
