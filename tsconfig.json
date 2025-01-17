@@ -1,6 +1,20 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true
+		"jsx": "react-native",
+		"types": ["styled-components-react-native"],
+    "strict": true,
+    "baseUrl": "./",
+		"paths": {
+			"@assets/*": ["./src/assets/*"],
+			"@components/*": ["./src/components/*"],
+			"@routes/*": ["./src/routes/*"],
+			"@pages/*": ["./src/pages/*"],
+			"@storage/*": ["./src/storage/*"],
+			"@styles/*": ["./src/styles/*"],
+			"@utils/*": ["./src/utils/*"],
+			"@service/*": ["./src/service/*"],
+			"@contexts/*": ["./src/contexts/*"]
+		}
   }
 }
